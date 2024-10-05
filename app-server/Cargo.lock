@@ -653,7 +653,10 @@ dependencies = [
 name = "resto_manager"
 version = "0.1.0"
 dependencies = [
+ "rand",
  "rusqlite",
+ "serde",
+ "serde_json",
  "tokio",
  "warp",
 ]
